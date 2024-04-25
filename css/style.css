@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: #000;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+
+}
+
+#wordGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#enterWord {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#input {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 4%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#button {
+    width: 50;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button:hover{
+    color: #fff;
+    background-color: #000;
+}
+#result {
+    font-size: 30px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
